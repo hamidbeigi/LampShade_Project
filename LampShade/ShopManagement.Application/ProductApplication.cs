@@ -35,6 +35,7 @@ namespace ShopManagement.Application
         public OperationResult Edit(EditProduct command)
         {
             var operation = new OperationResult();
+
             var product = _productRepository.Get(command.Id);
             if (product == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);

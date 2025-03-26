@@ -16,10 +16,10 @@ namespace ServiceHost.Pages
 #line 1 "D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\Areas\Administration\Pages\_ViewImports.cshtml"
 using ServiceHost
 
-#line default
-#line hidden
 #nullable disable
     ;
+    #line default
+    #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"328d2e24b4019ca1ed5dc21c8e2986d30ce2c8845478f3a1b4840b75fe46db70", @"/Areas/Administration/Pages/_ViewStart.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"Sha256", @"84e67cc624686472d6ee628a8fd93a67c79f2978653a37fe57c229fa14270597", @"/Areas/Administration/Pages/_ViewImports.cshtml")]
     #nullable restore

@@ -9,7 +9,6 @@
       "ShopManagement.Configuration/1.0.0": {
         "dependencies": {
           "01_LampshadeQuery": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "ShopManagement.Application": "1.0.0",
           "ShopManagement.Application.Contracts": "1.0.0",
@@ -1050,7 +1049,7 @@
         },
         "runtime": {
           "01_LampshadeQuery.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1061,7 +1060,7 @@
         },
         "runtime": {
           "0_Framework.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1073,7 +1072,7 @@
         },
         "runtime": {
           "ShopManagement.Application.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1084,7 +1083,7 @@
         },
         "runtime": {
           "ShopManagement.Application.Contracts.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1096,7 +1095,7 @@
         },
         "runtime": {
           "ShopManagement.Domain.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -1109,7 +1108,7 @@
         },
         "runtime": {
           "ShopManagement.Infrastructure.EFCore.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }

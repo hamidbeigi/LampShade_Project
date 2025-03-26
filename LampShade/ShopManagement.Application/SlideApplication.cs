@@ -33,6 +33,7 @@ namespace ShopManagement.Application
         public OperationResult Edit(EditSlide command)
         {
             var operation = new OperationResult();
+
             var slide = _slideRepository.Get(command.Id);
             if (slide == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);

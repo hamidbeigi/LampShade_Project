@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _0_Framework.Application
 {
@@ -10,6 +6,7 @@ namespace _0_Framework.Application
     {
         public bool IsSucceded { get; set; }
         public string Message { get; set; }
+
         public OperationResult()
         {
             IsSucceded = false;
@@ -21,11 +18,17 @@ namespace _0_Framework.Application
             Message = message;
             return this;
         }
+
         public OperationResult Failed(string message)
         {
             IsSucceded = false;
             Message = message;
             return this;
+        }
+
+        public OperationResult Failed(object passwordsNotMatch)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -622,9 +622,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
-      "projectName": "DiscountManagement.Application.Contract",
-      "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+      "projectUniqueName": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contracts.csproj",
+      "projectName": "DiscountManagement.Application.Contracts",
+      "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\RAMZI\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\obj\\",
       "projectStyle": "PackageReference",

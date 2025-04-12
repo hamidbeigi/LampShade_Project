@@ -1839,19 +1839,19 @@
           "DiscountManagement.Application.dll": {}
         }
       },
-      "DiscountManagement.Application.Contract/1.0.0": {
+      "DiscountManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
           "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
-          "DiscountManagement.Application.Contract.dll": {
+          "DiscountManagement.Application.Contracts.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
         "compile": {
-          "DiscountManagement.Application.Contract.dll": {}
+          "DiscountManagement.Application.Contracts.dll": {}
         }
       },
       "DiscountManagement.Configuration/1.0.0": {
@@ -1874,7 +1874,7 @@
       "DiscountManagement.Domain/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
-          "DiscountManagement.Application.Contract": "1.0.0"
+          "DiscountManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "DiscountManagement.Domain.dll": {
@@ -3666,6 +3666,13 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
+      },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compileOnly": true
       }
     }
   },
@@ -4551,7 +4558,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DiscountManagement.Application.Contract/1.0.0": {
+    "DiscountManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5998,6 +6005,11 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

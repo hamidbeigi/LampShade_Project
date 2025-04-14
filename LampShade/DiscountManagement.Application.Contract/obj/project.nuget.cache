@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ls2mjgCLjGc=",
+  "dgSpecHash": "4WmE98K2Fjs=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contracts.csproj",
+  "projectFilePath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAMZI\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\RAMZI\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",

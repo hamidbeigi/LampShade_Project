@@ -2,7 +2,11 @@ D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManage
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Domain.dll
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Domain.pdb
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\0_Framework.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.dll
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\0_Framework.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\bin\Debug\net5.0\ShopManagement.Application.Contracts.pdb
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\InventoryManagement.Domain\obj\Debug\net5.0\InventoryManagement.Domain.AssemblyInfoInputs.cache

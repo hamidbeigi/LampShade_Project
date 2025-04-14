@@ -6122,8 +6122,8 @@
     },
     "DiscountManagement.Application.Contracts/1.0.0": {
       "type": "project",
-      "path": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contracts.csproj",
-      "msbuildProject": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contracts.csproj"
+      "path": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj",
+      "msbuildProject": "../DiscountManagement.Application.Contracts/DiscountManagement.Application.Contracts.csproj"
     },
     "DiscountManagement.Domain/1.0.0": {
       "type": "project",
@@ -6148,6 +6148,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DiscountManagement.Application.Contracts >= 1.0.0",
       "DiscountManagement.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
@@ -6187,6 +6188,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+              "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+            },
             "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
               "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
             },

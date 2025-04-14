@@ -14,7 +14,7 @@ namespace InventoryManagement.Domain.InventoryAgg
         public bool InStock { get; private set; }
         public List<InventoryOperation> Operations { get; set; }
 
-        public Inventory(long productId, double unitPrice, bool inStock)
+        public Inventory(long productId, double unitPrice)
         {
             ProductId = productId;
             UnitPrice = unitPrice;

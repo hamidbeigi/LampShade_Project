@@ -49,5 +49,6 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
                 discount.Product = products.FirstOrDefault(x => x.Id == discount.ProductId)?.Name);
             return discounts;
         }
+
     }
 }

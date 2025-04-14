@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "DiscountManagement.Application/1.0.0": {
         "dependencies": {
-          "DiscountManagement.Application.Contract": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0",
           "DiscountManagement.Domain": "1.0.0"
         },
         "runtime": {

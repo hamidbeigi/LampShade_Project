@@ -9,7 +9,6 @@
       "DiscountManagement.Configuration/1.0.0": {
         "dependencies": {
           "DiscountManagement.Application": "1.0.0",
-          "DiscountManagement.Application.Contract": "1.0.0",
           "DiscountManagement.Infrastructure.EFCore": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
@@ -1055,7 +1054,7 @@
       },
       "DiscountManagement.Application/1.0.0": {
         "dependencies": {
-          "DiscountManagement.Application.Contract": "1.0.0",
+          "DiscountManagement.Application.Contracts": "1.0.0",
           "DiscountManagement.Domain": "1.0.0"
         },
         "runtime": {
@@ -1091,6 +1090,7 @@
       },
       "DiscountManagement.Infrastructure.EFCore/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Application.Contracts": "1.0.0",
           "DiscountManagement.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",

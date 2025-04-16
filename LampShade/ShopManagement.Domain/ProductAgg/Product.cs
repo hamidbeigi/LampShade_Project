@@ -9,8 +9,6 @@ namespace ShopManagement.Domain.ProductAgg
     {
         public string Name { get; private set; }
         public string Code { get; private set; }
-        public double UnitPrice { get; private set; }
-        public bool InStock { get; private set; }
         public string ShortDescription { get; private set; }
         public string Description { get; private set; }
         public string Picture { get; private set; }
@@ -25,14 +23,12 @@ namespace ShopManagement.Domain.ProductAgg
         public List<ProductPicture> ProductPictures { get; set; }
 
 
-        public Product(string name, string code, double unitPrice, string shortDescription, string description,
+        public Product(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle,
             string keyWords, string metaDescription, string slug, long categoryId)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
-            InStock = true;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -44,13 +40,12 @@ namespace ShopManagement.Domain.ProductAgg
             CategoryId = categoryId;
         }
 
-        public void Edit(string name, string code, double unitPrice, string shortDescription, string description,
+        public void Edit(string name, string code, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle,
             string keyWords, string metaDescription, string slug, long categoryId)
         {
             Name = name;
             Code = code;
-            UnitPrice = unitPrice;
             ShortDescription = shortDescription;
             Description = description;
             Picture = picture;
@@ -60,15 +55,6 @@ namespace ShopManagement.Domain.ProductAgg
             MetaDescription = metaDescription;
             Slug = slug;
             CategoryId = categoryId;
-        }
-
-        public void IsInStock()
-        {
-            this.InStock = true;
-        }
-        public void NotInStock()
-        {
-            this.InStock = false;
         }
     }
 }

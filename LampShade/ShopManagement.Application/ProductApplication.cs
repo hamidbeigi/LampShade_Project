@@ -22,7 +22,7 @@ namespace ShopManagement.Application
 
             var slug = GenerateSlug.Slugify(command.Slug);
 
-            var product = new Product(command.Name, command.Code, command.UnitPrice,
+            var product = new Product(command.Name, command.Code,
                 command.ShortDescription, command.Description, command.Picture, command.
                 PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, slug, command.CategoryId);
 
@@ -45,7 +45,7 @@ namespace ShopManagement.Application
 
             var slug = GenerateSlug.Slugify(command.Slug);
 
-            product.Edit(command.Name, command.Code, command.UnitPrice,
+            product.Edit(command.Name, command.Code,
                 command.ShortDescription, command.Description, command.Picture, command.
                 PictureAlt, command.PictureTitle, command.KeyWords, command.MetaDescription, slug, command.CategoryId);
 
@@ -62,34 +62,6 @@ namespace ShopManagement.Application
         public List<ProductViewModel> GetProducts()
         {
             return _productRepository.GetProducts();
-        }
-
-        public OperationResult IsInStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-
-            product.IsInStock();
-
-            _productRepository.SaveChanges();
-
-            return operation.Succeded();
-        }
-
-        public OperationResult NotInStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.Get(id);
-            if (product == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
-
-            product.NotInStock();
-
-            _productRepository.SaveChanges();
-
-            return operation.Succeded();
         }
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)

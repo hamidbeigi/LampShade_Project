@@ -66,7 +66,7 @@ namespace InventoryMangement.Infrastructure.EFCore.Repository
             {
                 Id = x.Id,
                 UnitPrice = x.UnitPrice,
-                InStock = x.InStock,
+                IsInStock = x.InStock,
                 ProductId = x.ProductId,
                 CurrentCount = x.CalculateCurrentCount(),
                 CreationDate = x.CreationDate.ToFarsi()
@@ -75,8 +75,8 @@ namespace InventoryMangement.Infrastructure.EFCore.Repository
             if (searchModel.ProductId > 0)
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
 
-            if (searchModel.InStock)
-                query = query.Where(x => !x.InStock);
+            if (searchModel.OutOfStock)
+                query = query.Where(x => !x.IsInStock);
 
             var inventory = query.OrderByDescending(x => x.Id).ToList();
 

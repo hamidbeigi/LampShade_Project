@@ -53,7 +53,7 @@ namespace ServiceHost
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapDefaultControllerRoute();
+                //endpoints.MapDefaultControllerRoute();
             });
         }
     }

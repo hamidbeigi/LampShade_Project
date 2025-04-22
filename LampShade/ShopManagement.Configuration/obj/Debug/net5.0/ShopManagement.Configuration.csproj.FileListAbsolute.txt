@@ -24,3 +24,15 @@ D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\refint\ShopManagement.Configuration.dll
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contracts.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contracts.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Application.Contracts.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Domain.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Application.Contracts.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb

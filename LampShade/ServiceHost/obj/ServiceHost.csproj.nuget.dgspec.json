@@ -32,6 +32,12 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
+              },
+              "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\InventoryManagement.Infrastructure.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj"
+              },
               "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "D:\\Projects\\Asp.Net Core\\Asp.Net Core 5\\LampShade\\Code\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
               }

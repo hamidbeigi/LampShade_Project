@@ -1,20 +1,20 @@
 ﻿using _0_Framework.Application;
-using System;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ShopManagement.Application.Contracts.ProductCategory
 {
     public class CreateProductCategory
     {
-        [Required(ErrorMessage =ValidationMessages.IsRequired)]
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Name { get; set; }
 
         public string Description { get; set; }
-        public string Picture { get; set; }
+
+        //[Required(ErrorMessage = ValidationMessages.IsRequired)]
+        [FileExtentionLimitation(new string[] { ".jpeg", ".jpg", ".png" }, ErrorMessage = ValidationMessages.InvalidFileFormat)]
+        [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+        public IFormFile Picture { get; set; }
         public string PictureAlt { get; set; }
         public string PictureTitle { get; set; }
 
@@ -22,10 +22,10 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         public string KeyWords { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string MetaDescription  { get; set; }
+        public string MetaDescription { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Slug { get; set; }
-        
+
     }
 }

@@ -221,3 +221,8 @@ D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\obj
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Shared\Components\Menu\Default.cshtml.g.cs
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
 D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Search.cshtml.g.cs
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\Asp.Net Core\Asp.Net Core 5\LampShade\Code\LampShade\ServiceHost\bin\Debug\net5.0\System.Text.Encodings.Web.dll
